@@ -6,10 +6,10 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id="header">
+	<div id="header" role="navigation">
 		<div>
-			<a href="index.html"><img class="logo" src="images/logo.png" width="513" height="84" alt="" title=""></a>
-			<a href="index.html"><img  src="images/waitress.png" width="332" height="205" alt="" title=""></a>
+			<h1><a href="index.html"><img alt="Retro Diner" class="logo" src="images/logo.png" width="513" height="84" alt="" title=""></a></h1>
+			<img alt="Waitress" src="images/waitress.png" width="332" height="205" alt="" title="">
 			<ul class="navigation">
 				<li>
 					<a href="index.html">Home</a>
@@ -107,7 +107,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="footer">
+	<div id="footer" role="contentinfo">
 		<div>
 			<ul>
 				<li class="first">
@@ -115,18 +115,18 @@
 					<h3>Call 0-123-456-789</h3>
 					<ul>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/facebook" class="facebook"></a>
+							<a aria-label="facebook" href="http://www.freewebsitetemplates.com/go/facebook" class="facebook"></a>
 						</li>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/twitter" class="twitter"></a>
+							<a aria-label="twitter" href="http://www.freewebsitetemplates.com/go/twitter" class="twitter"></a>
 						</li>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus"></a>
+							<a aria-label="googleplus" href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus"></a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="index.html"><img class="logo" src="images/logo-footer.png" alt=""></a>
+					<a href="index.html"><img alt="Retro Diner" class="logo" src="images/logo-footer.png" alt=""></a>
 					<ul class="navigation">
 						<li>
 							<a href="index.html">Home</a>
@@ -146,8 +146,8 @@
 				<li class="last">
 					<h2>Follow Us By Email</h2>
 					<form action="index.html">
-						<input type="text" name="subscribe" value="Enter Your Email Here...">
-						<input type="submit" value="">
+						<input type="text" name="subscribe" placeholder="example@email.com" aria-label="Email" autocomplete="email">
+						<input type="submit" value="" aria-label="Subscribe now!">
 					</form>
 				</li>
 			</ul>
