@@ -1,4 +1,8 @@
 /** Website template by freewebsitetemplates.com **/
+*:focus-visible {
+	outline :6px solid #8192ff;
+	outline-offset :2px;
+}
 body {
 	margin :0;
 	padding :0;
